@@ -20,6 +20,7 @@ class Memory():
         self.memory = np.zeros(self.max_size)
         self.full = False
 
+
     def put(self, x):
         self.memory[self.pt] = x
         self.pt += 1
